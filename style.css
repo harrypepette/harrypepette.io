@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(192, 192, 192);
+}
+header {
+    font-size: 35px;
+    font-weight: bolder;
+
+    color: gray;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(136, 136, 136); 
+}
+.box { 
+    width: 70%;
+}
+section {
+    float: right;
+    width: 80%;
+    color: gray;
+    font-size: 18px;
+}
+
+ul {
+    display: block;
+    margin-block-start: -2.25em;
+}
+
+.menu {
+    width: 140px;
+    border-right: 1px solid rgb(136, 136, 136);
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    
+}
+.menu ul {
+    list-style-type: none; 
+}
+.menu ul {
+    display: none;
+}
+.menu li { 
+    position: relative;
+}
+
+
+.menu a {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    padding: 3px 10px;
+    
+}
+
+.menu li:hover ul {
+    display: block ;
+    position: absolute;
+    top: 36px; 
+    left: 100px; 
+
+}
+
+
+.menu li:hover {
+    background-color:rgba(219, 150, 150, 0.76);
+ }
+.menu ul li:hover {
+    background-color: rgba(253, 106, 106, 0.719);
+ } 
+
